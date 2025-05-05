@@ -1,0 +1,29 @@
+# Build output
+/build/
+
+# SDK config
+sdkconfig
+sdkconfig.old
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# Executables and binary output
+*.bin
+*.elf
+*.map
+
+# VS Code settings
+.vscode/
+
+# Python virtual environment
+venv/
+.env/
+
+# GDB
+.gdbinit
+
+# Managed components (если можно восстановить через idf.py reconfigure)
+managed_components/
